@@ -1,0 +1,54 @@
+#canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+#pageNumber {
+    display: inline;
+}
+
+.previous {
+    display: inline;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 15%;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.next {
+    display: inline;
+    background-color: #42A047;
+    color: white;
+    border-radius: 15%;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+#text-content {
+    column-count: 1;
+    column-gap: 20px;
+    margin: 20px auto;
+    max-width: 720px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#text-content p {
+    margin: 0 0 10px;
+    break-inside: avoid;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
